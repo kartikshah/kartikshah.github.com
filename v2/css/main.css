@@ -1,0 +1,280 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+}
+
+a.twitter-timeline {
+	font-family: Geneva;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+a:hover {
+	color: white;
+	background-color: #3180BB;
+	border: solid thin #3180BB;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+#leftnavlist li a:hover, #leftnavlist li a.selected:hover {
+	color: white;
+}
+
+body {
+	width: 1024px;
+	margin: 0 auto;
+	font-family: Geneva, sans-serif;
+	font-size: 1em;
+	background-color: white;
+	border: solid thin #3180BB;
+    background: -webkit-linear-gradient(top, white 0%, white 70%);
+    box-shadow: 3px 3px 5px #666;
+}
+
+#topnavdiv {
+	background-color: #3180BB;
+	border: solid;
+	border-width: thin;
+	border-color: #3180BB;
+	height: 90px;
+}
+
+#topnav {
+	background-color: #FFAA52;
+	margin-top: 0px;
+	border: solid;
+	height: 25px;
+	border-width: thin;
+	border-color: #FFAA52;
+}
+
+#topnavlist {
+	margin-left: 770px;
+	margin-top: 0px;
+	border: solid;
+	border-width: thin;
+	border-color: #FFAA52;
+}	
+
+#topnavlist li {
+	display: inline;
+	border-radius: 3px ;
+	list-style-type: none;
+	padding-right: 15px;
+}
+
+#topnavlist li a {
+	color: white;
+	font-family: Geneva;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	padding: 3px;
+}
+
+#topnavlist li a.selected {
+	color: white;
+	background-color: #3180BB;
+	border: solid thin #3180BB;
+}
+
+#mainclass {
+	background-color: white;
+	max-width: 1024px;
+	border: solid;	
+	border-width:thin;
+	border-color: white;
+}
+
+#column1 {
+	margin-top: 25px;
+	max-width: 150px;
+}
+
+#column2 {
+	position: relative;
+	top: -120px;
+	left: 175px;
+	max-width: 825px;
+	height: 800px;
+}
+
+#column3 {
+	position: relative;
+	top: -120px;
+	left: 175px;
+	max-width: 825px;
+	height:800px;
+}
+
+
+#leftnav {
+	max-width: 150px;
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-left: 25px;
+}
+
+#leftnavlist li {
+	list-style-type: none;
+	font-weight: bold;
+	padding-top: 3px;
+	text-align: left;
+}
+
+#leftnavlist li a {
+	font-family: Geneva;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border: none;
+	padding: 2px;
+	color: #3180BB;
+	text-decoration: none;
+}
+
+#leftnavlist li a.selected {
+	color: #FFAA52;
+	#padding-left: 10px;
+	#background-color: #3180BB;
+	#border: solid thin #3180BB;
+	
+}
+
+#mainpicture {
+	border: solid;
+	border-width: thin;
+	padding-left: 5px;
+	border-radius: 5px;
+	border-color: #3180BB;
+	height: 305px;
+	background-color: white;
+}
+
+img.mainpicture {
+	width: 800px;
+	height: 600px;
+}
+
+#widecolumn {
+	position:absolute;
+	width: 500px;
+	border: solid;
+	border-width: thin;
+	border-color: #3180BB;
+	border-radius: 5px;
+	margin-top: 15px;
+	#background-color: #858687;
+}
+
+#feedcolumn {
+	position: absolute;
+	left: 500px;
+	width: 315px;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: solid;
+	border-width: thin;
+	border-color: #3180BB;
+	#background-color: #858687;
+	border-radius: 5px;
+}
+
+#footerline {
+	height: 5px;
+	position: relative;
+	margin-top: 0px;
+	background-color: #FFAA52;
+}
+
+#socialmediaouter {
+	border-width: thin;
+	background-color: #3180BB;
+	border: solid;
+	border-width: thin;
+	#height: 81px;
+	border-color: #3180BB;
+}
+
+#socialmedia {
+    display: table;
+    margin: 0 auto;
+	margin-top: 15px;
+}
+
+img.icons{
+	width: 50px;
+	height: auto;
+}
+
+h1 {
+	font-family: Geneva, sans-serif;
+	font-size: 3em;
+	color: white;
+	margin-left: 25px;
+   # -webkit-transform: rotate(-2deg);
+}
+
+h2 {
+	font-family: Geneva, sans-serif;
+	font-size: 1.3em;
+	background-color: white;
+	padding-left: 10px;
+	margin: 0 auto;
+	border-bottom: solid;
+	border-width: thick;
+	background-color: #3180BB;
+	border-color: #FFAA52;
+	color: white;
+}
+
+h3 {
+	font-family: Geneva, sans-serif;
+	font-size: 1.1em;
+	background-color: white;
+}
+
+#certification p {
+	padding-left: 10px;
+}
+
+#skills p {
+	padding-left: 10px;
+	#column-count: 3;
+	#-webkit-column-count:3;
+}
+
+#education p {
+	padding-left: 10px;
+}
+
+#recommendation p {
+	padding-left: 20px;
+}
+
+div.recoitem {
+	#border: solid; 
+	#border-width:thin; 
+	text-align: justify; 
+	#border-color:lightgrey;
+	padding: 10px; 
+	#box-shadow: inset 1px 1px 1px 1px #FFAA52; 
+	margin: 3px; 
+	#border-radius: 3px;">
+}
+
+div.recoitemauthor {
+	text-align: right;
+}
